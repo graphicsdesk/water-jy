@@ -358,102 +358,76 @@
 		<section id="outro"></section>
 	</main>
 
-	<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
 	<script src="https://unpkg.com/scrollama"></script>
 
 	<script>
-		// using d3 for convenience
-		var main = d3.select("main");
-		var scrolly = main.select("#scrolly");
-		var pipe = d3.select("#center-image");
-		var figure = scrolly.select("figure");
-		var article = scrolly.select("article");
-		var step = article.selectAll(".step");
+		// NO D3 – just vanilla JS
 
-		var lastStepIndex;
+		const main = document.querySelector("main");
+		const scrolly = document.querySelector("#scrolly");
+		const pipe = document.querySelector("#center-image");
+		const figure = scrolly.querySelector("figure");
+		const article = scrolly.querySelector("article");
+		const steps = Array.from(article.querySelectorAll(".step"));
+
+		let lastStepIndex;
+		let numImageSteps;
 
 		// initialize the scrollama
-		var scroller = scrollama();
+		const scroller = scrollama();
 
 		function handleResize() {
-			step.style("height", "auto");
-			figure.style("height", window.innerHeight + "px");
+			steps.forEach(step => {
+				step.style.height = "auto";
+			});
+			figure.style.height = window.innerHeight + "px";
 			scroller.resize();
-		}
-
-		function updateDividerHeight() {
-			const divider = document.getElementById("divider");
-			const bodyHeight = document.body.scrollHeight;
-
-		}
-
-		// Run on load and resize
-		window.addEventListener("load", updateDividerHeight);
-		window.addEventListener("resize", updateDividerHeight);
-
-		function scalePage() {
-			const designWidth = 1200;
-			const screenWidth = window.innerWidth;
-			const scale = screenWidth / designWidth;
-
-			document.documentElement.style.setProperty("--page-scale", scale);
-
-			const wrapper = document.getElementById("scale-wrapper");
-			wrapper.style.transform = `scale(${scale})`;
-			wrapper.style.height = `calc(${scale} * 100%)`;
 		}
 
 		function handleStepEnter(response) {
 			// highlight active step
-			step.classed("is-active", function (d, i) {
-				return i === response.index;
+			steps.forEach((el, i) => {
+				el.classList.toggle("is-active", i === response.index);
 			});
 
-			var currentStep = response.index + 1;
+			// clamp so invisible step still uses last image
+			const currentStep = Math.min(response.index + 1, numImageSteps);
 
 			// switch background images
-			figure.selectAll("img")
-				.classed("active", function () {
-					return +d3.select(this).attr("data-step") === currentStep;
-				});
+			const imgs = figure.querySelectorAll("img");
+			imgs.forEach(img => {
+				const stepNum = Number(img.getAttribute("data-step"));
+				img.classList.toggle("active", stepNum === currentStep);
+			});
 
 			// show/hide the pipe only on desktop (>= 900px)
 			if (window.innerWidth >= 900) {
-				if (response.index < lastStepIndex) {
-					// steps 0..(last-1) -> show pipe
-					pipe.classed("visible", true);
-				} else {
-					// last step -> hide pipe
-					pipe.classed("visible", false);
-				}
+				pipe.classList.add("visible");
 			} else {
-				// just to be safe on mobile/tablet
-				pipe.classed("visible", false);
+				pipe.classList.remove("visible");
 			}
 		}
-
 
 		function handleStepExit(response) {
 			// leaving the very first step going UP → above scrolly
-			if (response.index === 0 && response.direction === 'up') {
-				figure.selectAll("img").classed("active", false);
-				pipe.classed("visible", false);
-			}
+			const leavingTop = response.index === 0 && response.direction === "up";
+			// leaving the invisible step (last step) going DOWN → below scrolly
+			const leavingBottom = response.index === lastStepIndex-1 && response.direction === "down";
 
-			// leaving the *last* step (the invisible one) going DOWN → below scrolly
-			if (response.index === lastStepIndex-1 && response.direction === 'down') {
-				figure.selectAll("img").classed("active", false);
-				pipe.classed("visible", false);
+			if (leavingTop || leavingBottom) {
+				const imgs = figure.querySelectorAll("img");
+				imgs.forEach(img => img.classList.remove("active"));
+				pipe.classList.remove("visible");
 			}
 		}
-
-
 
 		function init() {
 			handleResize();
 
-			// compute last step index once
-			lastStepIndex = step.size() - 1;
+			// total steps (including invisible one)
+			lastStepIndex = steps.length - 1;
+			// number of images (1–10)
+			numImageSteps = figure.querySelectorAll("img").length;
 
 			scroller
 				.setup({
@@ -465,11 +439,10 @@
 				.onStepExit(handleStepExit);
 		}
 
-		window.addEventListener("resize", scalePage);
-		window.addEventListener("load", scalePage);
-
-		init();
+		window.addEventListener("resize", handleResize);
+		window.addEventListener("load", init);
 	</script>
+
 	</div>
 
 
