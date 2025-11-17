@@ -268,7 +268,7 @@
 		<section id="outro"></section>
 	</main>
 
-	<script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
 	<script src="https://unpkg.com/scrollama"></script>
 
 	<script>var e,t=d3.select("main"),i=t.select("#scrolly"),n=d3.select("#center-image"),s=i.select("figure"),l=i.select("article"),c=l.selectAll(".step"),d=scrollama();function a(){c.style("height","auto"),s.style("height",window.innerHeight+"px"),d.resize()}function o(){document.getElementById("divider"),document.body.scrollHeight}function r(){var e=window.innerWidth/1200;document.documentElement.style.setProperty("--page-scale",e);var t=document.getElementById("scale-wrapper");t.style.transform="scale(".concat(e,")"),t.style.height="calc(".concat(e," * 100%)")}function u(t){c.classed("is-active",function(e,i){return i===t.index});var i=t.index+1;s.selectAll("img").classed("active",function(){return+d3.select(this).attr("data-step")===i}),window.innerWidth>=900&&t.index<e?n.classed("visible",!0):n.classed("visible",!1)}function v(t){0===t.index&&"up"===t.direction&&(s.selectAll("img").classed("active",!1),n.classed("visible",!1)),t.index===e-1&&"down"===t.direction&&(s.selectAll("img").classed("active",!1),n.classed("visible",!1))}function w(){a(),e=c.size()-1,d.setup({step:"#scrolly article .step",offset:.33,debug:!1}).onStepEnter(u).onStepExit(v)}window.addEventListener("load",o),window.addEventListener("resize",o),window.addEventListener("resize",r),window.addEventListener("load",r),w();</script>
