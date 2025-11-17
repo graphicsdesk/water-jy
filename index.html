@@ -269,12 +269,7 @@
 	</main>
 
 	<script src="https://unpkg.com/scrollama"></script>
-
-	<script>var e,t,i=document.querySelector("main"),r=document.querySelector("#scrolly"),n=document.querySelector("#center-image"),o=r.querySelector("figure"),c=r.querySelector("article"),l=Array.from(c.querySelectorAll(".step")),s=scrollama();function a(){l.forEach(function(e){e.style.height="auto"}),o.style.height=window.innerHeight+"px",s.resize()}function u(e){l.forEach(function(t,i){t.classList.toggle("is-active",i===e.index)});var i=Math.min(e.index+1,t);o.querySelectorAll("img").forEach(function(e){var t=Number(e.getAttribute("data-step"));e.classList.toggle("active",t===i)}),window.innerWidth>=900?n.classList.add("visible"):n.classList.remove("visible")}function d(t){var i=0===t.index&&"up"===t.direction,r=t.index===e-1&&"down"===t.direction;(i||r)&&(o.querySelectorAll("img").forEach(function(e){return e.classList.remove("active")}),n.classList.remove("visible"))}function f(){a(),e=l.length-1,t=o.querySelectorAll("img").length,s.setup({step:"#scrolly article .step",offset:.33,debug:!1}).onStepEnter(u).onStepExit(d)}window.addEventListener("resize",a),window.addEventListener("load",f);</script>
-
-	
-
-
+	<script src="https://spectator-static-assets.s3.amazonaws.com/water-jy/scrollyscript.a1c783c8.js"></script>
 
 </body>
 
