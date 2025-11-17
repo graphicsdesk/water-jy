@@ -7,12 +7,182 @@
       "root": "./src/partials",
       "locals": {
         "top": [],
-        "body": [],
+        "body": [
+          {
+            "type": "text",
+            "value": "Hundreds of residents of the Manhattanville Houses—a public housing project which includes six apartment buildings between West 129th and 133rd Street—were left without gas or clean water periodically since Oct. 6. While building management tackled repairs, residents relied on hot plates and stored water to adapt to the prolonged shutdowns."
+          },
+          {
+            "type": "text",
+            "value": "Despite promised improvements, intended to be financed by the sale of an adjacent empty New York City Housing Authority site to luxury apartment developers, the weekslong water and gas outages signify ongoing issues residents of the housing community continue to face."
+          },
+          {
+            "type": "text",
+            "value": "In 2022, NYCHA sold an empty site at 1440 Amsterdam Ave. to private developers for $28 million. The funds from the sale of the lot, which is now the site of a luxury apartment building, were intended to exclusively finance repairs and upgrades to the Manhattanville complex."
+          },
+          {
+            "type": "text",
+            "value": "The water and gas outages in the Manhattanville complex follow the housing project’s December 2024 transition from public housing to privatized housing. This was accomplished through the Rental Assistance Demonstration program, which the Permanent Affordability Commitment Together initiative introduced in 2016. The program enabled NYCHA to convert Section 9 public housing into Section 8 project-based vouchers—which subsidizes low- and moderate-income households with funds for renting privately-owned housing. It effectively transferred public housing leases to private landlords."
+          },
+          {
+            "type": "text",
+            "value": "The 2016 program relies on the government partnering with private and nonprofit entities. Under the PACT partnership with NYCHA, $445 million in funding allowed Gilbane Development Company, Apex Building Group, and West Harlem Group Assistance to begin renovating former public housing apartments."
+          },
+          {
+            "type": "text",
+            "value": "“A lot of the residents were not fully aware of what the outcome was going to be on this conversion. So I tried to not only guide my family, but whatever other families need particular information,” longtime Manhattanville resident Derek Haynes told Spectator, describing how he spread awareness of the private conversion."
+          },
+          {
+            "type": "text",
+            "value": "<i>[Read More: </i><a href=\"https://www.columbiaspectator.com/city-news/2024/12/17/nycha-and-pact-announce-445-million-financial-privatization-of-manhattanville-houses/\"><i>NYCHA and PACT announce $445 million financial privatization of Manhattanville Houses</i></a>]"
+          },
+          {
+            "type": "text",
+            "value": "In the year since Manhattanville Houses underwent the <a href=\"https://www.columbiaspectator.com/city-news/2024/12/17/nycha-and-pact-announce-445-million-financial-privatization-of-manhattanville-houses/\">conversion</a>, residents have faced persistent problems in the apartment complex."
+          },
+          {
+            "type": "text",
+            "value": "Three months after the new tower adjacent to Manhattanville Houses was opened to the public in the Affordable Housing Lottery, residents of Manhattanville Houses are seeing continuous problems with gas and water. Ongoing issues and outages have left them feeling “neglected” as 1440 Amsterdam Ave. thrives."
+          },
+          {
+            "type": "text",
+            "value": "“I’ve lived in Manhattanville since September of 2018, and it’s not the best experience, even after partnerships. When they don’t want to deal with something, they just ignore it,” Loretta Thomas, a Manhattanville resident, said."
+          },
+          {
+            "type": "text",
+            "value": "In an Oct. 6 letter, property manager Ty Harris informed residents about a current water outage affecting the development. According to Harris’ letter, NYCHA management had already contacted the New York City Department of Environmental Protection to investigate the matter."
+          },
+          {
+            "type": "text",
+            "value": "A few days later, on Oct. 9, ELH Management and Manhattanville’s PACT team updated tenants regarding the ongoing water outage. According to letters obtained by Spectator, residents were informed that water was being supplied by an emergency bypass system and bottled water would be distributed to residents during the outage."
+          },
+          {
+            "type": "text",
+            "value": "On the same day as the Oct. 9 announcement, Thomas told Spectator she had learned of the water issues before other residents from a building worker who worked with the pipes. “Nobody else would have told us that, but the super told me,” Thomas said."
+          },
+          {
+            "type": "text",
+            "value": "“The Environmental Protection Agency … turned off the water over here in Manhattanville Houses. That doesn’t make any sense and they didn’t warn anybody, they didn’t say anything to ELH or to NYCHA,” Paul Ortiz, longtime Manhattanville resident, told Spectator on Oct. 10."
+          },
+          {
+            "type": "text",
+            "value": "Through notices posted by APEX Building Group and Gilbane Development Company on Oct. 15, Buildings 2, 5, and 6 learned that their running water would be temporarily shut off on Oct. 17 from 10 a.m. to 4 p.m. due to additional valve and plumbing repairs. The notices, distributed by building management, also announced ongoing gas issues in the building. Tenants were encouraged to store water in advance for essential needs."
+          },
+          {
+            "type": "text",
+            "value": "“Last month, a gas line leak was discovered in 3250 Broadway and gas service was disconnected, impacting 40 apartments,” Kelly Magee, public relations representative for ELH Management, wrote in a Nov. 7 statement to Spectator. “A licensed plumber was engaged to repair and pressure test the affected line, a process that took about three weeks to complete which is typical for this type of repair. Once the repairs were finished, Con Edison conducted the required inspection, which added roughly another week and a half to the timeline. All work has now been completed, and gas service has been fully restored to all affected apartments.”"
+          },
+          {
+            "type": "text",
+            "value": "On Oct. 9, Thomas told Spectator that the gas had been out since Aug. 3 and residents had received “cheap hot plates” as a response to the outage."
+          },
+          {
+            "type": "text",
+            "value": "In an Oct. 27 update, residents were informed that the bypass pump system that provides water would sometimes shut off when the water pressure changed, which would require staff interference."
+          },
+          {
+            "type": "text",
+            "value": "That same day, Manhattanville residents received further updates from ELH Management and Manhattanville’s PACT partners about additional permanent repairs. Residents were advised to store water in tubs, sinks, and buckets on Oct. 29 to prepare for the outage."
+          },
+          {
+            "type": "text",
+            "value": "Thomas, who successfully sued the Manhattanville Houses for past water issues in 2018 when she first moved in, holds a court order guaranteeing she cannot be left without a continuous supply of water. For her, navigating frequent water issues is especially frustrating."
+          },
+          {
+            "type": "text",
+            "value": "The repairs were completed on Oct. 31 by PACT partners, including preventative maintenance and the repair of several broken pipe lines. Despite completion, the outages have broken trust between tenants and management."
+          },
+          {
+            "type": "text",
+            "value": "“I get my distilled water from the supermarket,” Ortiz said."
+          },
+          {
+            "type": "text",
+            "value": "On Nov. 7, a PACT representative reported additional construction to fix ongoing water pressure issues caused by sediment trapped in the building’s pipes due to nearby construction."
+          },
+          {
+            "type": "text",
+            "value": "“During these scheduled shut-offs, ownership supplied alternate water to tenants. The affected pipe, along with the water tank and related valves in the tank room, have since been fully repaired. All repair work was completed within approximately two weeks, and full water service has been restored,” Magee wrote in the Nov. 7 statement. “Ownership met with NYCHA and the Tenant Association about the shut-offs as they were occurring. There is one additional piece of work to further improve water pressure scheduled for the upcoming week, to which residents will be alerted.”"
+          },
+          {
+            "type": "text",
+            "value": "On Monday, Nov. 10, residents received a flier on their door detailing additional repairs scheduled for Tuesday, Nov. 11. Residents were once again encouraged to store water in advance of the outage."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "scrolly.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "As residents continue to face recurring outages and uncertainty about lasting repairs, the <a href=\"https://www.columbiaspectator.com/city-news/2022/11/30/construction-of-luxury-apartment-building-sparks-opposition-among-manhattanville-residents/\">1440 Amsterdam Ave. luxury tower</a> has become a point of tension. Residents say they have yet to see meaningful improvements in their own buildings even though the sale of the property promised to be a source of funding for long-overdue upgrades at Manhattanville Houses."
+          },
+          {
+            "type": "text",
+            "value": "When the empty lot was initially sold, NYCHA affirmed that the funding generated by the sale would be used explicitly for comprehensive building repairs and upgrades at Manhattanville Houses."
+          },
+          {
+            "type": "text",
+            "value": "After the lots were sold by NYCHA to Grid Group, a New York City-based real estate company, Grid Group and Gluck+ Architecture constructed the 28-story luxury building at 1440 Amsterdam Ave. NYCHA Press Secretary Michael Horgan wrote in a statement to Spectator that the luxury building “will include 147 rent-restricted apartments, with current NYCHA residents receiving priority for 25 percent of these apartments.” The units are listed at 130 percent of the area’s median income, which is $25,057 for NYCHA public housing families."
+          },
+          {
+            "type": "text",
+            "value": "“There’s no relationship between the residents at Manhattanville and that tower,” Haynes said, “We can’t afford it.”"
+          },
+          {
+            "type": "text",
+            "value": "Haynes added that Manhattanville residents feel “sad,” particularly because transparency about the tower’s spaces was something that was “discussed and promised.”"
+          },
+          {
+            "type": "text",
+            "value": "In August, the tower opened in the Affordable Housing Lottery."
+          },
+          {
+            "type": "text",
+            "value": "Haynes also noted the vulnerability of the Manhattanville Houses to development pressure due to their location between Columbia and the City College of New York, which both have plans for expansion."
+          },
+          {
+            "type": "text",
+            "value": "“Based on the information that I’m getting from people calling me, there seems to be no affordable housing in that tower,” Haynes said."
+          },
+          {
+            "type": "text",
+            "value": "Ortiz expressed concerns about the impacts on health from ongoing issues with water quality. For Manhattanville residents, poor communication amid ongoing problems in the building has deepened distrust. The presence of 1440 Amsterdam Ave. has led to further tensions."
+          },
+          {
+            "type": "text",
+            "value": "“Something’s going on that they are not telling us,” Ortiz said."
+          },
+          {
+            "type": "text",
+            "value": "<i>Deputy News Editor Aiyana St. Hilaire can be contacted at </i><a href=\"mailto:aiyana.sthilaire@columbiaspectator.com\"><i>aiyana.sthilaire@columbiaspectator.com</i></a><i>. Follow her on X </i><a href=\"https://twitter.com/aiyanast_hil\"><i>@Aiyanast_hil</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Graphics Reporter Emilia Lebeau can be contacted at </i><a href=\"mailto:emilia.lebeau@columbiaspectator.com\"><i>emilia.lebeau@columbiaspectator.com</i></a><i>. Follow Spectator on X @ColumbiaSpec.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Graphics Associate Matthew Lombardi can be contacted at </i><a href=\"mailto:matthew.lombardi@columbiaspectator.com\"><i>matthew.lombardi@columbiaspectator.com</i></a><i>.</i><i> Follow Spectator on X @columbiaspec.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter</i></b></a><b><i> and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a>."
+          }
+        ],
+        "headline": "Following the privatization of Manhattanville Houses, residents were left without clean water for nearly a month",
+        "dek": "The sale of a nearby lot where new luxury apartments sit was supposed to finance repairs to the Manhattanville Houses. But ongoing issues still persist as residents battle continuous water outages.",
+        "date": "November 17, 2025",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/aiyana-st-hilaire/\">Aiyana St. Hilaire</a>",
+        "byline2": "Graphic by <a href=\"https://www.columbiaspectator.com/contributors/emilia-lebeau/\">Emilia Lebeau</a> and <a href=\"https://www.columbiaspectator.com/contributors/matthew-lombardi/\">Matthew Lombardi</a>",
+        "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6NY3OL5OSZG2JD2V4J4ZJGRW7Q.jpg",
+        "cover_caption": "Sofia Wadler / Columbia Daily Spectator",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
-        "USE_COVER_HED": false,
+        "USE_COVER_HED": true,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1Q64QrpES1uJcRUDK7uwN9vqSoGhPsu8Edo3wHsouhIM/edit?usp=sharing"
       }
     }
   }

@@ -536,24 +536,32 @@ header {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .cover-hed header {
     margin-top: 50%;
     transform: translateY(-135%);
   }  
 }
 
-@media (max-width: 340px) {
+
+@media (max-width: 400px) {
   .cover-hed header {
     margin-top: 50%;
-    transform: translateY(-140%);
+    transform: translateY(-130%);
+  }  
+}
+
+@media (max-width: 350px) {
+  .cover-hed header {
+    margin-top: 50%;
+    transform: translateY(-145%);
   }  
 
   header #headline {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   header #dek {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
