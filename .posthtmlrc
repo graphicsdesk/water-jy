@@ -171,11 +171,12 @@
             "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter</i></b></a><b><i> and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a>."
           }
         ],
-        "headline": "Following the privatization of Manhattanville Houses, residents were left without clean water for nearly a month",
+        "headline": "Following the privatization of Manhattanville Houses, residents were left without consistently running water for nearly a month",
         "dek": "The sale of a nearby lot where new luxury apartments sit was supposed to finance repairs to the Manhattanville Houses. But ongoing issues still persist as residents battle continuous water outages.",
         "date": "November 17, 2025",
         "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/aiyana-st-hilaire/\">Aiyana St. Hilaire</a>",
         "byline2": "Graphic by <a href=\"https://www.columbiaspectator.com/contributors/emilia-lebeau/\">Emilia Lebeau</a> and <a href=\"https://www.columbiaspectator.com/contributors/matthew-lombardi/\">Matthew Lombardi</a>",
+        "byline3": "Illustration by Eva Vu-Stern",
         "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6NY3OL5OSZG2JD2V4J4ZJGRW7Q.jpg",
         "cover_caption": "Sofia Wadler / Columbia Daily Spectator",
         "USE_NEWS_NAV": true,
